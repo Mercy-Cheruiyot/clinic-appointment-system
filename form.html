@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./form.css">
+  </head>
+<body>
+
+<h1>Imani Clinic Appointment Form</h1>
+
+<p>The value attribute specifies an initial value for an input field:</p>
+
+<form action="/action_page.php">
+  <fieldset>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="First" value=" ">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Last" value=""></fieldset>
+  <fieldset>
+  <label for="phone">Enter your phone number:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{6}"></fieldset>
+  <fieldset>
+  <label for="clinic">Choose a Clinic</label>
+<select id="clinic" name="clinic"><br>
+  <option value="Dental">Dental Clinic</option>
+  <option value="Eye">Eye Clinic</option>
+  <option value="Paediatric">Paediatric Clinic</option>
+  <option value="Antenatal">Antenatal Clinic</option>
+</select><br></fieldset>
+<fieldset>
+  <label for="datetime">Appointment Date:</label><br>
+  <input type="datetime-local" id="datetime" name="datetime" value=""><br><br>
+  <label for="Payment">Payment </label><br><br>
+  <input type="submit" value="Submit">
+ 
+  <input
+</form>
+
+</body>
+</html>
